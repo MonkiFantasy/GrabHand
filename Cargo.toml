@@ -1,6 +1,17 @@
 [package]
-name = "GrabHand"
+name = "grab_hand"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+# camera access
+nokhwa = { version = "0.10", features = ["input-native"] }
+
+#gesture detect
+#mediapipe-rs = "0.1"
+
+#simulate input
+uinput = "0.1"
+
+# Async runtime
+tokio = { version = "1" ,features = ["full"] }
