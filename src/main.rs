@@ -2,7 +2,7 @@ fn main() {
     println!("Attempting to simulate mouse movement...");
 
     // Call the function from our library
-    match grab_hand::uinput_handler::simulate_mouse_move() {
+    match crab_hand::uinput_handler::simulate_mouse_move() {
         Ok(_) => {
             println!("Mouse movement simulated successfully!");
         }
